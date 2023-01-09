@@ -8,11 +8,11 @@ endif
 " Plugins
 call plug#begin('~/.vim/plugged')
 Plug 'dense-analysis/ale'
-Plug 'anjeelcain/pnevma.vim'
 Plug 'LunarWatcher/auto-pairs'
 Plug 'cormacrelf/vim-colors-github'
 Plug 'vimwiki/vimwiki'
 Plug 'mzlogin/vim-markdown-toc'
+Plug '~/git/pnevma.vim'
 call plug#end()
 
 "  Settings
@@ -22,7 +22,7 @@ set encoding=utf-8
 set foldenable
 set foldopen=hor,insert,mark,search,undo
 set textwidth=80 
-set listchars=tab:▸\ ,trail:·,eol:¬,nbsp:_
+set listchars=tab:▸\ ,space:·,eol:¬
 set viminfofile=NONE
 set ruler
 set tabstop=4 
